@@ -1,10 +1,11 @@
 # HPO-Graph-Similarity-classification
 Graph Similarity classification on HPO graphs of patients with a genetic disorder
-![gex](gex.png, "a HPO graph")
+![gex](https://user-images.githubusercontent.com/68016450/145811836-40dfe402-b4e4-457e-ab7b-edea3f2de729.png)
 
 2 Frameworks for graph similarity classification on HPO graphs are implemented in this repository.
 
-The first framework is the most common subgraph (MCS) framework which consists of the following 4 classification methods:
+The first framework is the most common subgraph (MCS) framework which
+ consists of the following 4 classification methods:
   * most common subgraph classification based on the amount of nodes in the MCS.
   * most common subgraph classification based on the amount of edges in the MCS.
   * most common subgraph classification based on the sum of edge weight in the MCS.
