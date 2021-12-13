@@ -1,7 +1,6 @@
 # HPO-Graph-Similarity-classification
 Graph Similarity classification on HPO graphs of patients with a genetic disorder
-<img title="a HPO graph" alt="" src="E:\big_downloads\gex">
-
+![]("E:\big_downloads\gex" "a HPO graph")
 
 2 Frameworks for graph similarity classification on HPO graphs are implemented in this repository.
 
@@ -17,13 +16,13 @@ The second framework is the graph kernel classification framework which consists
   * graph kernel classification
   
   
-    4 parameters need to be chosen from when running the model:
-    * Supply the data
+    4 parameters need to be provided to run this model:
+    * The data
     * Choose one graph kernel from this list (VertexHistogram,WeisfeilerLehmanOptimalAssignment,ShortestPath,EdgeHistogram)
     * choose K
     * Choose KFold or stratified KFold
     
-    ```python graph_kernel_classification(pd.read_pickle('C:/Users/niels/Downloads/patienten.pkl'),VertexHistogram,553,'kfolds')```
+    ``` graph_kernel_classification(pd.read_pickle('C:/Users/niels/Downloads/patienten.pkl'),VertexHistogram,553,'kfolds')```
     
     
     
