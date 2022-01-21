@@ -13,7 +13,7 @@ The first framework is the most common subgraph (MCS) framework which
   
 
 The second framework is the graph kernel classification framework which consists of the following classification method:
-  * graph kernel classification in combination with the GraKeL package (https://ysig.github.io/GraKeL/0.1a8/) and SVM.
+  * graph kernel classification in combination with the GraKeL package (https://ysig.github.io/GraKeL/0.1a8/) and support vector machines.
   
 
   
