@@ -9,11 +9,11 @@ The first framework is the most common subgraph (MCS) framework which
   * most common subgraph classification based on the amount of nodes in the MCS.
   * most common subgraph classification based on the amount of edges in the MCS.
   * most common subgraph classification based on the sum of edge weight in the MCS.
-  * most common subgraph classification based on the amount of nodes in the MCS and corrected by the size of the input graphs.
+  * most common subgraph classification based on the amount of nodes in the MCS corrected by the size of the input graphs.
   
 
 The second framework is the graph kernel classification framework which consists of the following classification method:
-  * graph kernel classification in combination with the GraKeL package (https://ysig.github.io/GraKeL/0.1a8/)
+  * graph kernel classification in combination with the GraKeL package (https://ysig.github.io/GraKeL/0.1a8/) and SVM.
   
 
   
